@@ -1,15 +1,127 @@
+body {
+    width: 80vw;
+    min-width: 500px;
+    margin: 0 auto;
+    height: 300vh;
+    background-color: black;
+}
 
-footer {
-    margin-top:  .74rem;
-    border-top: solid 1px lightgray;
-    padding-top:  1rem;
+h1 {
     text-align: center;
+    color: rgb(165, 53, 146);
 }
 
-footer img {
-    margin: 0 .5rem;
+html {
+    background:linear-gradient(150deg,
+    rgb(68, 68, 190) 0%,
+    rgb(206, 76, 134) 50%,
+    rgb(175, 51, 213) 100%
+    );
+    font-size: 50px;
+    }
+
+img {
+    height:50%;
+    width:50%;
+    object-fit: contain;
 }
 
-footer img:hover {
-    cursor: pointer;
+.astrocircle {
+    height: 925px;
+    width: 925px;
+    position: relative;
+    left: 300px;
+    top: 200px;
+}
+
+#aquarius {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 775px;
+    top: -695px;
+}
+
+#pisces {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 655px;
+    top: -905px;
+}
+
+#aries {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 470px;
+    top: -1050px;
+}
+#taurus {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 800px;
+    top:-840px;
+}
+
+#gemini {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 165px;
+    top: -1085px;
+}
+
+#cancer {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 135px;
+    top:-1040px;
+}
+
+#leo {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 150px;
+    top: -990px;
+}
+
+#virgo {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 275px;
+    top: -970px;
+}
+
+#libra {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 470px;
+    top: -1020px;
+}
+#scorpio {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 665px;
+    top: -1170px;
+}
+#sagittarius {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 775px;
+    top: -1390px;
+}
+#capricorn {
+    height: 25%;
+    width: 25%;
+    position: relative;
+    left: 285px;
+    top: -1885px ;
 }
