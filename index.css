@@ -2,7 +2,7 @@ body {
     width: 80vw;
     min-width: 500px;
     margin: 0 auto;
-    height: 300vh;
+    height: 200vh;
     background-color: black;
 }
 
@@ -29,8 +29,10 @@ img {
 .astrocircle {
     height: 925px;
     width: 925px;
+    text-align: center;
+    font-color: rgb(184, 29, 153);
     position: relative;
-    left: 300px;
+    left: 65px;
     top: 200px;
 }
 
