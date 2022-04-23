@@ -1,24 +1,32 @@
 let containerbox = document.querySelector(".containerbox");
 
-let button = document.getElementById("aries");
+let aries = document.getElementById("aries");
 
-let baseURL = `https://cors-anywhere.herokuapp.com/https://ohmanda.com/api/horoscope/aries`;
+let ariesURL = `https://cors-anywhere.herokuapp.com/https://ohmanda.com/api/horoscope/aries`;
+let horoscopeResults = document.querySelector('.results');
 
-scopeCall();
+aries.addEventListener('click', ariesCall);
 
-aries.addEventListener('click', scopeCall);
-
-function scopeCall() {
-    fetch(baseURL)
-        .then((response) => {return response.json(); 
+function ariesCall() {
+    fetch(ariesURL)
+        .then((response) => {
+            return response.json(); 
         })
         .then((json) => {
-            console.log(json);
+            //console.log(json);
+            displayScope(json);
         })
         .catch((err) => 
             console.log(err)
         );
 }
 
-    function displayScope(data)
+function displayScope(data) {
     console.log(data);
+    let horoscopetext = document.createElement("p");
+    horoscopetext.innerText = data.horoscope;
+    horoscopetext.style.color = "rgb(113, 22, 94)";
+    horoscopetext.style.fontFamily = "lobster";
+    horoscopeResults.appendChild(horoscopetext);
+}
+    

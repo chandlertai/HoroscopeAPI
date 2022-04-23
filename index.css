@@ -26,104 +26,118 @@ img {
     object-fit: contain;
 }
 
+@font-face {
+    font-family: lobster;
+    src: url("./assets/LuxuriousRoman-Regular.ttf");
+}
 .astrocircle {
     height: 925px;
     width: 925px;
-    text-align: center;
-    font-color: rgb(184, 29, 153);
-    position: relative;
-    left: 65px;
-    top: 200px;
+    position: absolute;
+    left: 445px;
+    top: 350px;
+}
+
+.results {
+    height: 65px;
+    width: 925px;
+    align-content: center;
+    font-size: x-large;
+    color: rgb(165, 64, 143);
+    position: absolute;
+    left: 225px;
+    top: 905px;
+
 }
 
 #aquarius {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 775px;
-    top: -695px;
+    position: absolute;
+    left: 875px;
+    top: 405px;
 }
 
 #pisces {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 655px;
-    top: -905px;
+    position: absolute;
+    left: 775px;
+    top: 295px;
 }
 
 #aries {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 470px;
-    top: -1050px;
+    position: absolute;
+    left: 600px;
+    top: 250px;
 }
 #taurus {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 800px;
-    top:-840px;
+    position: absolute;
+    left: 420px;
+    top: 295px;
 }
 
 #gemini {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 165px;
-    top: -1085px;
+    position: absolute;
+    left: 315px;
+    top: 405px;
 }
 
 #cancer {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 135px;
-    top:-1040px;
+    position: absolute;
+    left: 295px;
+    top: 540px;
 }
 
 #leo {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 150px;
-    top: -990px;
+    position: absolute;
+    left: 315px;
+    top: 680px;
 }
 
 #virgo {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 275px;
-    top: -970px;
+    position: absolute;
+    left: 420px;
+    top: 790px;
 }
 
 #libra {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 470px;
-    top: -1020px;
+    position: absolute;
+    left: 600px;
+    top: 825px;
 }
 #scorpio {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 665px;
-    top: -1170px;
+    position: absolute;
+    left: 775px;
+    top: 790px;
 }
 #sagittarius {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 775px;
-    top: -1390px;
+    position: absolute;
+    left: 885px;
+    top: 680px;
 }
 #capricorn {
     height: 25%;
     width: 25%;
-    position: relative;
-    left: 285px;
-    top: -1885px ;
+    position: absolute;
+    left: 905px;
+    top: 540px ;
 }
